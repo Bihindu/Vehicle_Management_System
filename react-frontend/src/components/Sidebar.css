@@ -1,0 +1,27 @@
+/* Sidebar.css */
+.sidebar {
+  position: fixed;
+  top: 10;
+  left: 0;
+  width: 150px; /* Change the width to your desired size */
+  height: 100%; /* Adjust the height if needed */
+  background-color: #333;
+  color: #fff;
+  padding-top: 20px;
+  z-index: 1000; /* Set a higher value */
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 10px;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
